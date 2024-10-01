@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Trampa Aí!",
+    "slug": "trampa-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.galendii.trampaai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.galendii.trampaai"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d94fdd64-729e-44d1-a2f2-f5c3cfcfddee"
+      }
+    },
+    "owner": "galendii",
+    "updates": {
+      "url": "https://u.expo.dev/d94fdd64-729e-44d1-a2f2-f5c3cfcfddee"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
